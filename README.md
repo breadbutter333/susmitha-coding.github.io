@@ -1,82 +1,74 @@
-## [Learning Portfoilio Tutorial Videos](https://video.cscc.edu/channel/channelid/295074652) 
+**a. What emerging technology did you choose? How is AI being used to support this technology?**
 
-## Markdown Text Cheat Sheet
-Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit. Pellentesque vel lacinia neque. Praesent nulla quam, ullamcorper in sollicitudin ac, molestie sed justo. Cras aliquam, sapien id consectetur accumsan, augue magna faucibus ex, ut ultricies turpis tortor vel ante. In at rutrum tellus.
+I chose AI-powered computer vision systems used in autonomous (self‑driving) vehicles.
+This technology allows a self‑driving car to “see” and understand the world around it by processing real‑time inputs from:
 
-# Sample heading 1
-## Sample heading 2
-### Sample heading 3
-#### Sample heading 4
-##### Sample heading 5
-###### Sample heading 6
+Cameras
+LiDAR
+Radar
+Proximity and motion sensors
 
-Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Etiam id nisl ut lorem gravida euismod.
+Using deep learning algorithms, the AI interprets this visual and sensor data to detect:
 
-## Lists
+Pedestrians
+Road signs
+Lane markings
+Traffic lights
+Obstacles and hazards
 
-Unordered:
+This perception system enables the vehicle to navigate safely, make decisions instantly, and respond to changes on the road in real time.
 
-- Fusce non velit cursus ligula mattis convallis vel at metus[^2].
-- Sed pharetra tellus massa, non elementum eros vulputate non.
-- Suspendisse potenti.
+**b. What previous solutions were being used in place of AI? How has AI replaced or will soon replace these solutions?
+In the past, traffic control relied on manual cues such as:**
 
-Ordered:
+Stop signs
+Pedestrian signals
+Traffic lights
+Human judgment from drivers
 
-1. Quisque arcu felis, laoreet vel accumsan sit amet, fermentum at nunc.
-2. Sed massa quam, auctor in eros quis, porttitor tincidunt orci.
-3. Nulla convallis id sapien ornare viverra.
-4. Nam a est eget ligula pellentesque posuere.
+These tools helped pedestrians and drivers know when it was safe to cross or stop at intersections.
+With the introduction of AI-powered autonomous vehicles, this process becomes fully real‑time.
+Instead of depending on human decisions, the car can automatically stop or adjust its speed when it detects an object in its path—whether it is:
 
-## Blockquote
+A human,
+An animal,
+Debris and
+Another vehicle
 
-The following is a blockquote:
+This shift removes human error, increases safety, and enables faster, smarter traffic flow.
 
-> Suspendisse tempus dolor nec risus sodales posuere. Proin dui dui, mollis a consectetur molestie, lobortis vitae tellus.
+**c. Briefly describe the type of AI being used for this technology**
+1. Computer Vision
+Computer vision allows the vehicle to interpret its surroundings using cameras and sensors. It can identify:
 
-## Thematic breaks (<hr>)
+Pedestrians
+Vehicles
+Road signs
+Lane markings
+Obstacles
 
-Mauris viverra dictum ultricies[^3]. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Etiam id nisl ut lorem gravida euismod. **You can put some text inside the horizontal rule like so.**
+This capability is essential for safe navigation and quick decision‑making.
 
----
-{: data-content="hr with text"}
+2. Machine Learning (Especially Deep Learning)
+   Machine learning models analyze huge amounts of driving data so the car can:
 
-Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Etiam id nisl ut lorem gravida euismod. **Or you can just have an clean horizontal rule.**
+  Recognize patterns
+  Predict other drivers’ behavior
+  Respond effectively to different road situations
 
----
+ Deep neural networks power perception, prediction, and vehicle control.
 
-Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus sed, varius ipsum. Donec scelerisque lacus libero, eu dignissim sem venenatis at. Etiam id nisl ut lorem gravida euismod. Or you can just have an clean horizontal rule.
+3. Sensor Fusion AI
+   Sensor fusion combines information from multiple sources—cameras, LiDAR, radar, GPS—to produce an accurate, unified        view of the environment.This helps the vehicle understand what is around it and how far away objects are.
 
-## Code
+4. Reinforcement Learning
+   Reinforcement learning trains autonomous systems through trial and error in simulated environments.
+   This helps the AI continuously improve its driving strategies and adapt to rare or complex road situations.
 
-Now some code:
+**d. How does the use of AI and this technology affect everyday life?**
 
-```
-const ultimateTruth = 'follow middlepath';
-console.log(ultimateTruth);
-```
-
-And here is some `inline code`!
-
-## Tables
-
-Now a table:
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-## Images
-
-![theme logo](http://www.abhinavsaxena.com/images/abhinav.jpeg)
-
-This is an image[^4]
-
----
-{: data-content="footnotes"}
-
-[^1]: this is a footnote. You should reach here if you click on the corresponding superscript number.
-[^2]: hey there, don't forget to read all the footnotes!
-[^3]: this is another footnote.
-[^4]: this is a very very long footnote to test if a very very long footnote brings some problems or not; hope that there are no problems but you know sometimes problems arise from nowhere.
+The use of AI in autonomous vehicles will have significant positive impacts on daily life.
+Accidents are expected to decrease dramatically, since many are caused by distracted driving or driving under the influence.
+AI-driven cars eliminate these risks by maintaining constant attention and making data-driven decisions.
+Traffic flow for both pedestrians and vehicles will improve, reducing congestion and wait times at intersections.
+Overall, AI‑powered transportation will create safer roads, smoother travel, and more efficient movement within cities.
