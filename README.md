@@ -72,3 +72,5 @@ Accidents are expected to decrease dramatically, since many are caused by distra
 AI-driven cars eliminate these risks by maintaining constant attention and making data-driven decisions.
 Traffic flow for both pedestrians and vehicles will improve, reducing congestion and wait times at intersections.
 Overall, AI‑powered transportation will create safer roads, smoother travel, and more efficient movement within cities.
+
+I am excited to see what the future will bring with AI. This technology will be especially beneficial for my teenage drivers, who can rely on AI-assisted navigation without constantly worrying about traffic or the fear of accidents. This evolution will also help elderly individuals navigate more easily, and it will provide people with disabilities greater independence by allowing them to commute without relying on others or feeling unsafe.
