@@ -1,1 +1,208 @@
 
+# 🌱 Week 3 – Machine Learning (Part 2)
+
+---
+
+## 📝 Question A — How Does Teachable Machine Use Machine Learning to Solve an Arbitrary Problem?
+
+### **1. It Starts With a Pretrained Machine Learning Model**
+Teachable Machine does **not** train a neural network from scratch. Instead, it uses a **pretrained deep learning model** (commonly MobileNet for images).
+
+**Why not train from scratch?**
+- Requires millions of labeled examples  
+- Requires days/weeks of GPU compute  
+- Requires hyperparameter tuning  
+
+Using a pretrained model provides a powerful **feature extractor** immediately.
+
+---
+
+### **2. 📦 It Extracts Features From User Examples**
+When you upload or record:
+- Images  
+- Audio  
+- Poses  
+
+Teachable Machine converts each example into a **feature vector** — a numerical summary of patterns such as:
+- Shapes & textures (image)  
+- Frequency patterns (audio)  
+- Skeletal landmarks (pose)  
+
+---
+
+### **3. 🏷️ It Associates These Features With Labels**
+You create classes such as:
+- “Cat” vs “Dog”  
+- “Clap” vs “Whistle”  
+- “Pose A” vs “Pose B”  
+
+The system groups feature vectors under each class to learn what makes them different.
+
+---
+
+### **4. 🔁 It Trains a Simple Classifier**
+A lightweight classifier (e.g., logistic regression or a dense neural layer) learns to map feature vectors → class labels.
+
+This is **transfer learning**:
+- The base model stays frozen  
+- Only the classifier layer is trained  
+
+This makes training:
+- Fast  
+- Effective with small datasets  
+- Possible inside a web browser  
+
+---
+
+### **5. 🔍 Prediction Process**
+When a new input is given:
+1. The pretrained model extracts features  
+2. The classifier evaluates them  
+3. The system outputs the highest‑probability class  
+
+This allows generalization to unseen examples.
+
+---
+
+### **6. 🚀 Exporting the Model**
+You can export the model as:
+- TensorFlow.js  
+- TensorFlow Lite  
+- SavedModel  
+
+Deployable to:
+- Websites  
+- Mobile apps  
+- Embedded systems  
+
+Exports include:
+- The pretrained feature extractor  
+- Your custom classifier  
+
+---
+
+### **🧩 Simple Analogy**
+Think of the pretrained model as an assistant that turns images or sounds into notes.
+
+You teach it:
+- “If notes look like *this*, it's Class A.”  
+- “If they look like *that*, it's Class B.”  
+
+It builds on knowledge gained from millions of examples.
+
+---
+
+### ✔️ **Summary**
+Teachable Machine uses:
+1. A pretrained feature extractor  
+2. User‑labeled examples  
+3. Numerical feature extraction  
+4. A lightweight classifier  
+5. Repeated inference for predictions  
+
+---
+
+## 📝 Question B — What Application Did You Create Using Teachable Machine?
+
+I created a model that **identifies paper cups vs plastic cups**, helping distinguish **biodegradable** from **non‑biodegradable** materials.
+
+I trained the model using:
+- Inverted cup images  
+- Blurred images  
+- Cups of different colors  
+- Dented and imperfect cups  
+
+I also downloaded additional images from **Kaggle.com** to increase dataset variety.
+
+---
+
+## 📝 Question C — What Problem Is It Intended to Solve?
+
+This model solves challenges related to:
+- Proper trash disposal  
+- Waste sorting  
+- Environmental awareness  
+
+**Why it matters:**
+- Plastic waste takes decades or centuries to decompose  
+- Paper decomposes much faster  
+- Misclassification leads to pollution and landfill overflow  
+
+Encouraging biodegradable options helps create a healthier planet.
+
+---
+
+## 📝 Question D — Why Did You Choose This Application?
+
+I chose this problem because:
+- Plastic waste is a major global environmental concern  
+- Many people cannot tell biodegradable vs. non‑biodegradable materials  
+- Improper disposal harms ecosystems  
+
+This project promotes:
+- Sustainable choices  
+- Awareness of eco‑friendly materials  
+- Reduced plastic pollution  
+
+Better habits now help future generations.
+
+---
+
+## 📝 Question E — URL to the Application or Exported Model
+
+**Teachable Machine Exported Model:**  
+https://teachablemachine.withgoogle.com/models/[...]
+
+---
+
+## 📝 Description of the ML Model and the Problems It Solves
+
+I built a **classification model** using Teachable Machine to distinguish between **paper cups** and **plastic cups**.
+
+### **Training Data Included:**
+- Inverted cups  
+- Blurred cups  
+- Different colors  
+- Dented cups  
+- Additional Kaggle datasets  
+
+### **Problems Addressed:**
+- Waste misclassification  
+- Lack of awareness about biodegradable materials  
+- Plastic pollution  
+
+### **Model Benefits:**
+- Better trash sorting  
+- Improved recycling/composting  
+- Encouragement of eco‑friendly choices  
+
+---
+
+## 📝 If You Designed the Model Again, What Would You Improve?
+
+### **1. Expand the Dataset**
+Add more:
+- Lighting conditions  
+- Angles  
+- Backgrounds  
+- Real‑world scenarios  
+
+### **2. Balance the Dataset**
+Equal numbers of paper and plastic cup images to avoid class bias.
+
+### **3. Add Data Augmentation**
+Include:
+- Noise  
+- Rotation  
+- Shadows  
+- Distortions  
+
+Improves robustness.
+
+### **4. Experiment With Different Pretrained Models**
+Compare model performance across multiple architectures.
+
+### **5. Improve Validation**
+Test with fully unseen images to identify weaknesses and refine the model.
+
+---
