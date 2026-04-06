@@ -4,30 +4,31 @@
 integration of a Machine Learning model to evaluate job candidates through automated
 resume review
 
-In the game, the main motivation was to hire quickly which is not possible for a human and we required a automation process to quickly
-filter the candidates pool
+In the game, the primary motivation was to accelerate the hiring process, which is difficult for humans to achieve at scale. 
+To address this, we implemented an automated solution to quickly filter the candidate pool. By using AI to process and analyze the data, we were able to create a faster and more scalable hiring process.
 ---
 
-## (b) “Good” situations in the game
+## (b) What "Good" situations exsisted in the game?
 
-There were some clear positive situations. After the ML model was introduced, the company could process many more resumes in less time, which helped them fill roles faster and grow the business. The decision process also appeared more standardized at first, since the same criteria were applied to every candidate instead of depending on the hiring manager’s mood or time constraints.
-
-From a business perspective, this led to short-term gains such as improved hiring throughput and a perception that the company was becoming more efficient and technologically advanced by using AI tools.
-
+The company was able to process the candidate pool in minutes rather than days. Additionally, it leveraged data from other companies, such as Google, to train the model, 
+enabling efficient and accurate evaluation of candidate profiles.
 ---
 
-## (c) “Bad” situations in the game
+## (c) What "Bad" situations exsisted in the game
 
-The game primarily highlights the negative consequences of relying on the model. Because the algorithm was trained on historical decisions and external data, it amplified existing human biases rather than removing them. Over time, it favored candidates from one city or background and systematically filtered out qualified individuals from another, resulting in a less diverse and unfair workforce.
-
-This created ethical, legal, and reputational risks for the company, which could be accused of discrimination while deflecting responsibility onto “the algorithm.” Another major issue was the black-box nature of the system, making it difficult to understand or contest why certain candidates were preferred over others.
+The decision was made based on historical data. However, since this data was created by humans, it may contain biases introduced by hiring managers and recruiters. 
+These biases may not be fair, and as a result, highly capable candidates with strong potential could be overlooked due to patterns embedded in the historical data.
 
 ---
 
-## (d) Advice to a business leader on when/how to implement ML in hiring
+## (d) How would you advise the business leader about when and how to implement a
+Machine Learning model to automate or improve the throughput of a hiring process?
 
-Based on the game, ML should be used cautiously and with strong safeguards. It can be helpful for supporting parts of the hiring process—such as ranking resumes or flagging promising candidates—especially when application volume is high, but it should not function as the sole decision-maker.
-
-Before deployment, organizations should audit training data for bias, define fairness metrics, and continuously monitor outcomes across demographic groups. A human-in-the-loop approach is essential to review edge cases and provide candidates with an appeal mechanism. In addition, a cross-functional team involving HR, legal, data science, and ethics should oversee the system, and transparency with both leadership and applicants should be prioritized.
-
-If an organization is not prepared to invest in this level of oversight and accountability, it is safer not to automate high-stakes hiring decisions using ML.
+Based on the game, it’s clear that machine learning should be used carefully and with the right safeguards in place. 
+It can be very useful in supporting certain parts of the hiring process—such as sorting resumes or highlighting strong candidates—especially when there is a large number of applications. 
+However, it should not be the only factor used to make hiring decisions.Before using ML systems, organizations need to closely review the data they are trained on to identify potential biases. 
+They should also set clear fairness standards and regularly check outcomes to ensure no groups are being treated unfairly. 
+Keeping humans involved in the process is critical, particularly to review edge cases and give candidates a way to challenge or appeal decisions.
+It’s also important for teams across HR, legal, data science, and ethics to work together to oversee these systems. 
+Being transparent with both leadership and applicants helps build trust and accountability. 
+If a company is not ready to commit to this level of responsibility and oversight, it may be better to avoid using ML for high‑stakes hiring decisions altogether.
